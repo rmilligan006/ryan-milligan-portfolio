@@ -9,7 +9,7 @@ import travel from "../assets/travel.png";
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#1594c7] ">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1240px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-yellow-500">
             Work
@@ -18,7 +18,7 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${myAngular})` }}
@@ -29,6 +29,13 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 <p>My Flix</p>
                 Angular Application
+                <p className="text-xs">
+                  The app should display a welcome view where users will be able
+                  to either log in or register an account. Once authenticated,
+                  the user should now view all movies. Upon clicking on a
+                  particular movie, users will be taken to a single movie view,
+                  where additional movie details will be displayed.
+                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://myflix-in-angular.vercel.app/welcome">
@@ -53,6 +60,14 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 <p>My Flix</p>
                 React JS Application
+                <p className="text-xs">
+                  myFlix is a single page app that uses state routing and a
+                  responsive UI library for a smooth experience. This app
+                  provides a list of movies from a dedicated API that was
+                  created in a earlier project. The Api's database allows users
+                  to view the information about the movies, Directors and Genres
+                  within the movie cards.
+                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://rmilligans-movie-app.netlify.app/">
@@ -78,6 +93,14 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 <p>NetFlix Clone</p>
                 React JS Application
+                <p className="text-xs">
+                  This is another version of the myFlix movie database that I
+                  have created. Instead of using a user created database I've
+                  taken the data from the TMDB api. Using Firebase
+                  Authentication gives the application login functionality.
+                  Allowing us to store user specific data with React front-end
+                  and a Firebase styled back-end.
+                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://netflix-app-phi.vercel.app/">
@@ -102,6 +125,12 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 <p>Meet</p>
                 React JS Application
+                <p className="text-xs">
+                  Meet is a serverless, progressive web application(PWA) built
+                  with React using a test-driven development(TDD) technique. The
+                  application uses the Google Calendar API to fetch upcoming
+                  events.
+                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://rmilligan006.github.io/meet/">
@@ -126,7 +155,12 @@ const Work = () => {
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
                 <p>To Do List</p>
-                Javascript Application
+                Javascript Application:
+                <p className="text-xs">
+                  A simple project built with jQuery it allows the user to Add
+                  and remove a item from the list. Mark existing item on the
+                  list as done. Change the items list order
+                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://rmilligan006.github.io/To-do-list/">
@@ -151,6 +185,12 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 <p>Travel</p>
                 React JS Application
+                <p className="text-xs">
+                  This app was built as a demo for a front-end travel website in
+                  react JS. It is a fully animated website using custom CSS. The
+                  Dependencies used were, "React-Icons", Smooth Scroll",
+                  "React-responsive-Carousel".
+                </p>
               </span>
               <div className="pt-8 text-center">
                 <a href="https://react-travel-page.vercel.app/">
