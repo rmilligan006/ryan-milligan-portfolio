@@ -18,26 +18,26 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-12">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${myAngular})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p>My Flix</p>
-                Angular Application
-                <p className="text-xs">
-                  The app should display a welcome view where users will be able
-                  to either log in or register an account. Once authenticated,
-                  the user should now view all movies. Upon clicking on a
-                  particular movie, users will be taken to a single movie view,
-                  where additional movie details will be displayed.
+                <p className="mt-2 p-2">My Flix</p>
+                <p className="ml-1"> Angular Application</p>
+                <p className="text-xs ml-1 mr-1 ">
+                  The app displays a welcome view where users will be able to
+                  either log in or register an account. Once authenticated, the
+                  user should now view all movies. Upon clicking on a particular
+                  movie, users will be taken to a single movie view, where
+                  additional movie details will be displayed.
                 </p>
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-2 text-center">
                 <a href="https://myflix-in-angular.vercel.app/welcome">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -53,14 +53,14 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${myFlix})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p>My Flix</p>
-                React JS Application
-                <p className="text-xs">
+                <p className="mt-1 p-2">My Flix</p>
+                <p className="ml-1"> React JS Application</p>
+                <p className="text-xs ml-1 mr-1 ">
                   myFlix is a single page app that uses state routing and a
                   responsive UI library for a smooth experience. This app
                   provides a list of movies from a dedicated API that was
@@ -69,7 +69,7 @@ const Work = () => {
                   within the movie cards.
                 </p>
               </span>
-              <div className="pt-8 text-center">
+              <div className="text-center">
                 <a href="https://rmilligans-movie-app.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -86,14 +86,14 @@ const Work = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Netflix})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p>NetFlix Clone</p>
-                React JS Application
-                <p className="text-xs">
+                <p className="mt-3 pl-1">NetFlix Clone</p>
+                <p className="ml-1"> React JS Application</p>
+                <p className="text-xs ml-1 mr-1 ">
                   This is another version of the myFlix movie database that I
                   have created. Instead of using a user created database I've
                   taken the data from the TMDB api. Using Firebase
@@ -102,7 +102,7 @@ const Work = () => {
                   and a Firebase styled back-end.
                 </p>
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-2 text-center">
                 <a href="https://netflix-app-phi.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -118,14 +118,14 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${meet})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p>Meet</p>
-                React JS Application
-                <p className="text-xs">
+                <p className="ml-1">Meet</p>
+                <p className="ml-1"> React JS Application</p>
+                <p className="text-xs ml-1 mr-1 ">
                   Meet is a serverless, progressive web application(PWA) built
                   with React using a test-driven development(TDD) technique. The
                   application uses the Google Calendar API to fetch upcoming
@@ -149,14 +149,14 @@ const Work = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${todolist})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p>To Do List</p>
-                Javascript Application:
-                <p className="text-xs">
+                <p className="ml-1">To Do List</p>
+                <p className="ml-1">Javascript Application</p>
+                <p className="text-xs ml-1 mr-1 ">
                   A simple project built with jQuery it allows the user to Add
                   and remove a item from the list. Mark existing item on the
                   list as done. Change the items list order
@@ -178,14 +178,14 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${travel})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p>Travel</p>
-                React JS Application
-                <p className="text-xs">
+                <p className="ml-1">Travel</p>
+                <p className="ml-1"> React JS Application</p>
+                <p className="text-xs ml-1 mr-1 ">
                   This app was built as a demo for a front-end travel website in
                   react JS. It is a fully animated website using custom CSS. The
                   Dependencies used were, "React-Icons", Smooth Scroll",
