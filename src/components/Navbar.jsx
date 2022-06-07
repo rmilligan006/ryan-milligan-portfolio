@@ -4,6 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import navLogo from "../assets/navLogo.png";
+import CV from "../assets/cv.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -110,6 +111,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="Contact"
+              onClick={() => (window.location = "mailto:rmilligan006@yahoo.ca")}
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -117,7 +119,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href={CV}
+              download
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
