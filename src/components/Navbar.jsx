@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import { AiOutlineMedium } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { CgTwitter } from "react-icons/cg";
 import { Link } from "react-scroll";
@@ -108,13 +108,12 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#08211c]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="Contact"
-              onClick={() => (window.location = "mailto:rmilligan006@yahoo.ca")}
+              href="https://medium.com/@ryanmilligan006"
             >
-              Email <HiOutlineMail size={30} />
+              Medium <AiOutlineMedium size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
