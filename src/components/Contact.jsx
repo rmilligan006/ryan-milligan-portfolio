@@ -4,15 +4,16 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center p-4 bg-[#1594c7]"
+      className="w-full h-screen flex justify-center items-center p-4 bg-[#0A455C]"
     >
       <form
         method="POST"
         action="https://getform.io/f/45a03aee-398d-4319-bd12-edcbef236059"
-        className="flex flex-col max-w-[600px] w-full"
+        className="flex flex-col max-w-[600px] w-full
+        "
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-yellow-500 text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 border-yellow-500 text-white">
             Contact
           </p>
           <p className="text-gray-300 py-4">
@@ -20,14 +21,14 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] p-2"
+          className="p-2"
           type="text"
           placeholder="Name..."
           name="name"
           aria-required
         />
         <input
-          className="my-4 p-2 bg-[#ccd6f6]"
+          className="my-4 p-2 "
           type="text"
           placeholder="email..."
           name="email"
@@ -36,7 +37,7 @@ const Contact = () => {
         <textarea
           name="message"
           rows="10"
-          className="bg-[#ccd6f6] p-2"
+          className=" p-2"
           placeholder="message..."
           required
         ></textarea>
