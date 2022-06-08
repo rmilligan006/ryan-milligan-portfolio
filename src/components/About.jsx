@@ -1,4 +1,5 @@
 import React from "react";
+import ME from "../assets/meagain.png";
 
 const About = () => {
   return (
@@ -15,6 +16,13 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold ">
             <p>Hi i'm Ryan, nice to meet you. Please take a look around.</p>
+            <div className=" w-[70%] ml-3">
+              <img
+                className="rounded-xl md:ml-24 sm:ml-9"
+                src={ME}
+                alt="Picture of Ryan Milligan"
+              />
+            </div>
           </div>
           <div>
             <p>
