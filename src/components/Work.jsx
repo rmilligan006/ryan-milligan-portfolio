@@ -22,7 +22,7 @@ const Work = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${myAngular})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-110 ease-in duration-300"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
@@ -53,7 +53,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${myFlix})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-110 ease-in duration-300"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
@@ -86,7 +86,7 @@ const Work = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Netflix})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-110 ease-in duration-300"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
@@ -118,7 +118,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${meet})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-110 ease-in duration-300"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
@@ -149,7 +149,7 @@ const Work = () => {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${todolist})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-110 ease-in duration-300"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
@@ -178,7 +178,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${travel})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-110 ease-in duration-300"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
