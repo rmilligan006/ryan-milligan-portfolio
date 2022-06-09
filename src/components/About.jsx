@@ -30,13 +30,10 @@ const About = () => {
               such as a tire technician, custodian, mold remediator, and
               landscaper. In 2021 I started dabbling with web development during
               the pandemic. What I thought would be something that I would do
-              during the pandemic turned into a love for programming. Fascinated
-              with just how intricate programming can be I was quickly drawn to
-              learn more. I started learning Javascript, and was even more
-              enthused with making websites interactive. I then started taking
-              part-time courses to get more experience under my belt. I am now
-              spending my time building projects with React, Angular, and
-              Firebase, and learning new technologies.
+              during the pandemic turned into a love for programming. I then
+              started taking part-time courses to get more experience under my
+              belt. I am now spending my time building projects with React,
+              Angular, and Firebase, and learning new technologies.
             </p>
           </div>
         </div>

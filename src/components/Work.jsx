@@ -18,7 +18,7 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-12">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${myAngular})` }}
@@ -29,7 +29,7 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 <p className="mt-2 p-2">My Flix</p>
                 <p className="ml-1"> Angular Application</p>
-                <p className="text-xs ml-1 mr-1 ">
+                <p className="text-xs ml-2 mr-2 ">
                   The app displays a welcome view where users will be able to
                   either log in or register an account. Once authenticated, the
                   user should now view all movies. Upon clicking on a particular
@@ -37,7 +37,7 @@ const Work = () => {
                   additional movie details will be displayed.
                 </p>
               </span>
-              <div className="pt-2 text-center">
+              <div className="pb-2 text-center">
                 <a href="https://myflix-in-angular.vercel.app/welcome">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -60,7 +60,7 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 <p className="mt-1 p-2">My Flix</p>
                 <p className="ml-1"> React JS Application</p>
-                <p className="text-xs ml-1 mr-1 ">
+                <p className="text-xs ml-2 mr-2 ">
                   myFlix is a single page app that uses state routing and a
                   responsive UI library for a smooth experience. This app
                   provides a list of movies from a dedicated API that was
@@ -69,7 +69,7 @@ const Work = () => {
                   within the movie cards.
                 </p>
               </span>
-              <div className="text-center">
+              <div className=" pb-2 text-center">
                 <a href="https://rmilligans-movie-app.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -102,7 +102,7 @@ const Work = () => {
                   and a Firebase styled back-end.
                 </p>
               </span>
-              <div className="pt-2 text-center">
+              <div className=" pb-2 text-center">
                 <a href="https://netflix-app-phi.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
