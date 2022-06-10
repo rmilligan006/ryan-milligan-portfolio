@@ -25,27 +25,27 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#03568E] rounded-3xl pt-4">
             <img className="w-20 mx-auto" src={html} alt="HTML Icon" />
             <p className="my-4 ">HTML</p>
-            <p className="pb-2">Intermediate</p>
+            
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#03568E] rounded-3xl pt-4">
             <img className="w-20 mx-auto" src={css} alt="CSS Icon" />
             <p className="my-4 ">CSS</p>
-            <p className="pb-2">Intermediate</p>
+            
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#03568E] rounded-3xl pt-4">
             <img className="w-20 mx-auto" src={github} alt="Github Icon" />
             <p className="my-4 ">Github</p>
-            <p className="pb-2">Intermediate</p>
+            
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#03568E] rounded-3xl pt-4">
             <img className="w-20 mx-auto" src={mongo} alt="Node Icon" />
             <p className="my-4 ">MongoDB</p>
-            <p className="pb-2">Beginner</p>
+    
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#03568E] rounded-3xl pt-4">
             <img className="w-20 mx-auto" src={react} alt="React Icon" />
             <p className="my-4 ">React</p>
-            <p className="pb-2">Beginner </p>
+      
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#03568E] rounded-3xl pt-4">
             <img
@@ -54,7 +54,7 @@ const Skills = () => {
               alt="Javascript Icon"
             />
             <p className="my-4 ">Javascript</p>
-            <p className="pb-2">Beginner</p>
+    
           </div>
         </div>
       </div>
