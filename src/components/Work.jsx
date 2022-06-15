@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-screen text-gray-100 bg-[#0A455C] pt-56"
+      className="w-full md:h-screen text-gray-100 bg-[#0A455C] pt-4"
     >
       <div className="max-w-[1240px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -21,7 +21,7 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-12">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${myAngular})` }}
@@ -30,7 +30,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-2 p-2">My Flix</p>
+                <p className="p-2">My Flix</p>
                 <p className="ml-1"> Angular Application</p>
                 <p className="text-xs ml-2 mr-2 ">
                   The app displays a welcome view where users will be able to
