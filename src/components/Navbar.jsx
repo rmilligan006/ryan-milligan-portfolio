@@ -12,7 +12,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="sticky top-0 z-50 w-full h-[80px] flex justify-between items-center px-4 bg-[#147ca5] text-white">
+    <div className="sticky top-0 z-50 w-full h-[50px] flex justify-between items-center px-4 bg-[#147ca5] text-white">
       <div>
         <img src={navLogo} alt="logo" style={{ width: "120px" }} />
       </div>
@@ -63,28 +63,28 @@ const Navbar = () => {
           <img src={navLogo} alt="logo" style={{ width: "120px" }} />
         </div>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={300}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={300}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={300}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="work" smooth={true} duration={300}>
             Work
           </Link>
         </li>
 
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={300}>
             Contact
           </Link>
         </li>
