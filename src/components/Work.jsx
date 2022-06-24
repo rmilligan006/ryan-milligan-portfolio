@@ -1,6 +1,6 @@
 import React from "react";
 import myAngular from "../assets/myflix-angular.png";
-import myFlix from "../assets/myflix.png";
+import bookfinder from "../assets/bookfinder.png";
 import Netflix from "../assets/Netflix.png";
 import meet from "../assets/meet.png";
 import todolist from "../assets/todolist.png";
@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-screen text-gray-100 bg-[#0A455C] pt-4"
+      className="w-full h-full md:h-screen text-gray-100 bg-[#191919] pt-4"
     >
       <div className="max-w-[1240px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -55,31 +55,31 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${myFlix})` }}
+            style={{ backgroundImage: `url(${bookfinder})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-1 p-2">My Flix</p>
+                <p className="mt-1 p-2">Book finder</p>
                 <p className="ml-1"> React JS Application</p>
-                <p className="text-xs ml-2 mr-2 ">
-                  myFlix is a single page app that uses state routing and a
-                  responsive UI library for a smooth experience. This app
-                  provides a list of movies from a dedicated API that was
-                  created in a earlier project. The Api's database allows users
-                  to view the information about the movies, Directors and Genres
-                  within the movie cards.
+                <p className="text-xs  ">
+                  Bookstore finder is a single page React app, that uses the
+                  google books api. it allows users to search for books, either
+                  by the title of the book, or by the author.When a book card is
+                  selected, a modal will pop up giving the user a brief
+                  description of the book, the date it was published, and who it
+                  was published by, and the price of the book.
                 </p>
               </span>
               <div className=" pb-2 text-center">
-                <a href="https://rmilligans-movie-app.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="https://book-finder-gules.vercel.app/">
+                  <button className="text-center rounded-lg px-3 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/rmilligan006/myFlix-client">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="https://github.com/rmilligan006/bookstore-finder">
+                  <button className="text-center rounded-lg px-3 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
