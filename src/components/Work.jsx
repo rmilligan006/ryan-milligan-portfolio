@@ -3,7 +3,7 @@ import myAngular from "../assets/myflix-angular.png";
 import bookfinder from "../assets/bookfinder.png";
 import Netflix from "../assets/Netflix.png";
 import meet from "../assets/meet.png";
-import todolist from "../assets/todolist.png";
+import recipeapp from "../assets/recipe-app.png";
 import travel from "../assets/travel.png";
 
 const Work = () => {
@@ -66,20 +66,17 @@ const Work = () => {
                 <p className="text-xs  ">
                   Bookstore finder is a single page React app, that uses the
                   google books api. it allows users to search for books, either
-                  by the title of the book, or by the author.When a book card is
-                  selected, a modal will pop up giving the user a brief
-                  description of the book, the date it was published, and who it
-                  was published by, and the price of the book.
+                  by the title of the book, or by the author.
                 </p>
               </span>
               <div className=" pb-2 text-center">
                 <a href="https://book-finder-gules.vercel.app/">
-                  <button className="text-center rounded-lg px-3 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg precipe-app px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/rmilligan006/bookstore-finder">
-                  <button className="text-center rounded-lg px-3 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg precipe-app px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -151,27 +148,27 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${todolist})` }}
+            style={{ backgroundImage: `url(${recipeapp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="ml-1">To Do List</p>
-                <p className="ml-1">Javascript Application</p>
+                <p className="ml-1">Recipe Buddy</p>
+                <p className="ml-1">React Application</p>
                 <p className="text-xs ml-1 mr-1 ">
-                  A simple project built with jQuery it allows the user to Add
-                  and remove a item from the list. Mark existing item on the
-                  list as done. Change the items list order
+                  A simple Food Recipe app using React. This application uses
+                  functional react components, and react-router-dom. Users can
+                  search from TheMealDB api to find their next craving.
                 </p>
               </span>
               <div className="pt-8 text-center">
-                <a href="https://rmilligan006.github.io/To-do-list/">
+                <a href="https://recipe-buddy.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/rmilligan006/To-do-list">
+                <a href="https://github.com/rmilligan006/react-recipeApp">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
