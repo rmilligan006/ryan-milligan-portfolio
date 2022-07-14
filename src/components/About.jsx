@@ -14,11 +14,11 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 ">
-          <div className="sm:text-right text-4xl font-bold ">
+          <div className="sm:text-right text-lg font-bold ">
             <p>Hi i'm Ryan, nice to meet you. Please take a look around.</p>
-            <div className=" w-[70%] ml-3">
+            <div className=" w-[40%] md:ml-24 sm:ml-1">
               <img
-                className="rounded-xl md:ml-24 sm:ml-9"
+                className="rounded-xl md:ml-24 sm:ml-3"
                 src={ME}
                 alt="Picture of Ryan Milligan"
               />
