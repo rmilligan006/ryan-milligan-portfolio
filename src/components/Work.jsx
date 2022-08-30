@@ -30,8 +30,8 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="p-2">My Flix</p>
-                <p className="ml-1"> Angular Application</p>
+                <p className="px-2">My Flix</p>
+                <p className="ml-1 px-1"> Angular Application</p>
                 <p className="text-xs ml-2 mr-2 ">
                   The app displays a welcome view where users will be able to
                   either log in or register an account. Once authenticated, the
@@ -61,12 +61,14 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-1 p-2">Book finder</p>
-                <p className="ml-1"> React JS Application</p>
-                <p className="text-xs  ">
-                  Bookstore finder is a single page React app, that uses the
-                  google books api. it allows users to search for books, either
-                  by the title of the book, or by the author.
+                <p className="mt-1 px-2">InTime Photography</p>
+                <p className="ml-1 px-1"> Next JS Application</p>
+                <p className="text-xs px-2">
+                  InTime Photography is a simple single page Next Js
+                  application. It uses the Image component that Next JS provides
+                  as well the internal routing system. Allowing the images to
+                  take advantage of lazy loading. With a image slider that also
+                  lazily loads the images as well.
                 </p>
               </span>
               <div className=" pb-2 text-center">
@@ -91,9 +93,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-3 pl-1">NetFlix Clone</p>
-                <p className="ml-1"> React JS Application</p>
-                <p className="text-xs ml-1 mr-1 ">
+                <p className="mt-3 px-2">NetFlix Clone</p>
+                <p className="ml-1 px-1"> React JS Application</p>
+                <p className="text-xs px-2">
                   This is another version of the myFlix movie database that I
                   have created. Instead of using a user created database I've
                   taken the data from the TMDB api. Using Firebase
@@ -123,9 +125,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="ml-1">Meet</p>
-                <p className="ml-1"> React JS Application</p>
-                <p className="text-xs ml-1 mr-1 ">
+                <p className="ml-1 px-2">Meet</p>
+                <p className="ml-1 px-1"> React JS Application</p>
+                <p className="text-xs ml-1 mr-1  px-1">
                   Meet is a serverless, progressive web application(PWA) built
                   with React using a test-driven development(TDD) technique. The
                   application uses the Google Calendar API to fetch upcoming
@@ -153,22 +155,26 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="ml-1">Recipe Buddy</p>
-                <p className="ml-1">React Application</p>
-                <p className="text-xs ml-1 mr-1 ">
-                  A simple Food Recipe app using React. This application uses
-                  functional react components, and react-router-dom. Users can
-                  search from TheMealDB api to find their next craving.
+              <span className="text-xl font-bold text-white tracking-wider">
+                <p className="px-2">Watch This</p>
+                <p className="px-1">React Application</p>
+                <p className="text-xs px-1">
+                  A Movie databse app built with React, and Material UI. This
+                  application allows users to see the top trending movies and tv
+                  shows. The hottest movies, and tv shows, and allows users to
+                  search for a movie or tv show. When a movie/show is selected a
+                  modal will open up giving a brief description of the
+                  movie/show, a carousel of the leading actors, and a button
+                  that opens up a trailer for the movie on youtube.
                 </p>
               </span>
-              <div className="pt-8 text-center">
-                <a href="https://recipe-buddy.vercel.app/">
+              <div className=" text-center">
+                <a href="https://watch-this-two.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/rmilligan006/react-recipeApp">
+                <a href="https://github.com/rmilligan006/fancy-movie-db">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
