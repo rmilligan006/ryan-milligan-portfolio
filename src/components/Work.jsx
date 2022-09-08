@@ -162,10 +162,7 @@ const Work = () => {
                   A Movie databse app built with React, and Material UI. This
                   application allows users to see the top trending movies and tv
                   shows. The hottest movies, and tv shows, and allows users to
-                  search for a movie or tv show. When a movie/show is selected a
-                  modal will open up giving a brief description of the
-                  movie/show, a carousel of the leading actors, and a button
-                  that opens up a trailer for the movie on youtube.
+                  search for a movie or tv show.
                 </p>
               </span>
               <div className=" text-center">
