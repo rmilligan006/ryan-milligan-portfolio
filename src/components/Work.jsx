@@ -30,14 +30,12 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="px-2">My Flix</p>
-                <p className="ml-1 px-1"> Angular Application</p>
+                <p className="px-2 text-sm">My Flix</p>
+                <p className="ml-1 px-1 text-sm"> Angular Application</p>
                 <p className="text-xs ml-2 mr-2 ">
                   The app displays a welcome view where users will be able to
                   either log in or register an account. Once authenticated, the
-                  user should now view all movies. Upon clicking on a particular
-                  movie, users will be taken to a single movie view, where
-                  additional movie details will be displayed.
+                  user can access the movies, and the additional movie details.
                 </p>
               </span>
               <div className="pb-2 text-center">
@@ -61,14 +59,13 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-1 px-2">InTime Photography</p>
-                <p className="ml-1 px-1"> Next JS Application</p>
+                <p className="mt-1 px-2 text-sm">InTime Photography</p>
+                <p className="ml-1 px-1 text-sm"> Next JS Application</p>
                 <p className="text-xs px-2">
                   InTime Photography is a simple single page Next Js
                   application. It uses the Image component that Next JS provides
                   as well the internal routing system. Allowing the images to
-                  take advantage of lazy loading. With a image slider that also
-                  lazily loads the images as well.
+                  take advantage of lazy loading.
                 </p>
               </span>
               <div className=" pb-2 text-center">
@@ -93,24 +90,22 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-3 px-2">NetFlix Clone</p>
-                <p className="ml-1 px-1"> React JS Application</p>
+                <p className="mt-3 px-2 text-xs">RMVGDB</p>
+                <p className="ml-1 px-1 text-xs"> React JS Application</p>
                 <p className="text-xs px-2">
-                  This is another version of the myFlix movie database that I
-                  have created. Instead of using a user created database I've
-                  taken the data from the TMDB api. Using Firebase
-                  Authentication gives the application login functionality.
-                  Allowing us to store user specific data with React front-end
-                  and a Firebase styled back-end.
+                  The Homepage Displays the latest, most popular, and new and
+                  upcoming games. The website was created with React.js, Redux
+                  for state management, axios, styled SASS components, and
+                  animations from framer motion.
                 </p>
               </span>
               <div className=" pb-2 text-center">
-                <a href="https://netflix-app-phi.vercel.app/">
+                <a href="https://rmvgdb-2-0.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/rmilligan006/netflix-app">
+                <a href="https://github.com/rmilligan006/RMVGDB-2.0">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -125,16 +120,16 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="ml-1 px-2">Meet</p>
-                <p className="ml-1 px-1"> React JS Application</p>
-                <p className="text-xs ml-1 mr-1  px-1">
+                <p className="ml-1 px-1 text-sm">Meet</p>
+                <p className="ml-1 px-1 text-xs"> React JS Application</p>
+                <p className="text-xs ml-1 mr-1 px-1">
                   Meet is a serverless, progressive web application(PWA) built
                   with React using a test-driven development(TDD) technique. The
                   application uses the Google Calendar API to fetch upcoming
                   events.
                 </p>
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-1 text-center">
                 <a href="https://rmilligan006.github.io/meet/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -156,8 +151,8 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-xl font-bold text-white tracking-wider">
-                <p className="px-2">Watch This</p>
-                <p className="px-1">React Application</p>
+                <p className="px-1 text-xs">Watch This</p>
+                <p className="px-1 text-xs">React Application</p>
                 <p className="text-xs px-1">
                   A Movie databse app built with React, and Material UI. This
                   application allows users to see the top trending movies and tv
@@ -186,8 +181,8 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="ml-1">Travel</p>
-                <p className="ml-1"> React JS Application</p>
+                <p className="ml-1 text-xs">Travel</p>
+                <p className="ml-1 text-xs"> React JS Application</p>
                 <p className="text-xs ml-1 mr-1 ">
                   This app was built as a demo for a front-end travel website in
                   react JS. It is a fully animated website using custom CSS. The
@@ -195,7 +190,7 @@ const Work = () => {
                   "React-responsive-Carousel".
                 </p>
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-1 text-center">
                 <a href="https://react-travel-page.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
