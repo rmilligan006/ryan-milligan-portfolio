@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { CgTwitter } from "react-icons/cg";
 import { Link } from "react-scroll";
 import navLogo from "../assets/navLogo.png";
-import CV from "../assets/Milligan-Ryan.pdf";
+import CV from "../assets/Ryan-Milligan-Resume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
