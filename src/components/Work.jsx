@@ -191,12 +191,12 @@ const Work = () => {
                 </p>
               </span>
               <div className="pt-1 text-center">
-                <a href="https://react-travel-page.vercel.app/">
+                <a href="https://diamond-roof-website-tzuy.vercel.app/">
                   <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/rmilligan006/react-travel-page">
+                <a href="https://github.com/rmilligan006/diamond-roof-website">
                   <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
