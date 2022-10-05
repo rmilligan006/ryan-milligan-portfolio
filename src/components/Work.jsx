@@ -30,9 +30,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="px-2 text-sm">My Flix</p>
-                <p className="ml-1 px-1 text-sm"> Angular Application</p>
-                <p className="text-xs ml-2 mr-2 ">
+                <p className="px-1 py-1 text-sm">My Flix</p>
+                <p className=" px-1 py-1 text-sm"> Angular Application</p>
+                <p className="text-xs px-1 mr-2 ">
                   The app displays a welcome view where users will be able to
                   either log in or register an account. Once authenticated, the
                   user can access the movies, and the additional movie details.
@@ -40,12 +40,12 @@ const Work = () => {
               </span>
               <div className="pb-2 text-center">
                 <a href="https://myflix-in-angular.vercel.app/welcome">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/rmilligan006/myflix-in-angular">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -59,9 +59,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-1 px-2 text-sm">InTime Photography</p>
-                <p className="ml-1 px-1 text-sm"> Next JS Application</p>
-                <p className="text-xs px-2">
+                <p className="mt-1 px-1 py-1 text-sm">InTime Photography</p>
+                <p className=" px-1 py-1 text-sm"> Next JS Application</p>
+                <p className="text-xs px-1">
                   InTime Photography is a simple single page Next Js
                   application. It uses the Image component that Next JS provides
                   as well the internal routing system. Allowing the images to
@@ -70,12 +70,12 @@ const Work = () => {
               </span>
               <div className=" pb-2 text-center">
                 <a href="https://book-finder-gules.vercel.app/">
-                  <button className="text-center rounded-lg precipe-app px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg precipe-app px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/rmilligan006/bookstore-finder">
-                  <button className="text-center rounded-lg precipe-app px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg precipe-app px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -90,8 +90,8 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-3 px-2 text-xs">RMVGDB</p>
-                <p className="ml-1 px-1 text-xs"> React JS Application</p>
+                <p className="mt-3 px-2 text-sm">RMVGDB</p>
+                <p className="ml-1 px-1 py-1 text-xs"> React JS Application</p>
                 <p className="text-xs px-2">
                   The Homepage Displays the latest, most popular, and new and
                   upcoming games. The website was created with React.js, Redux
@@ -101,12 +101,12 @@ const Work = () => {
               </span>
               <div className=" pb-2 text-center">
                 <a href="https://rmvgdb-2-0.vercel.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/rmilligan006/RMVGDB-2.0">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -122,7 +122,7 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 <p className="ml-1 px-1 text-sm">Meet</p>
                 <p className="ml-1 px-1 text-xs"> React JS Application</p>
-                <p className="text-xs ml-1 mr-1 px-1">
+                <p className="text-xs px-2 py-1">
                   Meet is a serverless, progressive web application(PWA) built
                   with React using a test-driven development(TDD) technique. The
                   application uses the Google Calendar API to fetch upcoming
@@ -131,12 +131,12 @@ const Work = () => {
               </span>
               <div className="pt-1 text-center">
                 <a href="https://rmilligan006.github.io/meet/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/rmilligan006/meet">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -151,9 +151,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-xl font-bold text-white tracking-wider">
-                <p className="px-1 text-xs">Watch This</p>
-                <p className="px-1 text-xs">React Application</p>
-                <p className="text-xs px-1">
+                <p className="px-1 py-1 text-xs">Watch This</p>
+                <p className="px-1 py-1 text-xs">React Application</p>
+                <p className="text-xs px-1 py-1">
                   A Movie databse app built with React, and Material UI. This
                   application allows users to see the top trending movies and tv
                   shows. The hottest movies, and tv shows, and allows users to
@@ -162,12 +162,12 @@ const Work = () => {
               </span>
               <div className=" text-center">
                 <a href="https://watch-this-two.vercel.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/rmilligan006/fancy-movie-db">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -181,23 +181,23 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="ml-1 text-xs">Travel</p>
-                <p className="ml-1 text-xs"> React JS Application</p>
+                <p className="px-1 py-1 text-xs mb-1">Diamond Steel Roofing</p>
+                <p className="px-1 py-1 text-xs"> React JS Application</p>
                 <p className="text-xs ml-1 mr-1 ">
-                  This app was built as a demo for a front-end travel website in
-                  react JS. It is a fully animated website using custom CSS. The
-                  Dependencies used were, "React-Icons", Smooth Scroll",
-                  "React-responsive-Carousel".
+                  This website was built for "Diamond Steel Roofing Company",
+                  out of Wingham Ont. The website was out dated and I was tasked
+                  with making it modern. It uses ReactJs, Framer-motion,
+                  React-Image-Lightbox, and swiper.
                 </p>
               </span>
               <div className="pt-1 text-center">
                 <a href="https://react-travel-page.vercel.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/rmilligan006/react-travel-page">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
