@@ -41,7 +41,7 @@ const Work = () => {
                 </p>
               </span>
               <div className=" pb-2 text-center">
-                <a href="https://book-finder-gules.vercel.app/">
+                <a href="https://intime-nextjs.vercel.app/">
                   <button className="text-center rounded-lg precipe-app px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
