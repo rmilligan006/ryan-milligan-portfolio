@@ -21,37 +21,9 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${myAngular})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="px-1 py-1 text-sm">My Flix</p>
-                <p className=" px-1 py-1 text-sm"> Angular Application</p>
-                <p className="text-xs px-1 mr-2 ">
-                  The app displays a welcome view where users will be able to
-                  either log in or register an account. Once authenticated, the
-                  user can access the movies, and the additional movie details.
-                </p>
-              </span>
-              <div className="pb-2 text-center">
-                <a href="https://myflix-in-angular.vercel.app/welcome">
-                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/rmilligan006/myflix-in-angular">
-                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+
           <div
             style={{ backgroundImage: `url(${bookfinder})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
@@ -59,9 +31,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-1 px-1 py-1 text-sm">InTime Photography</p>
-                <p className=" px-1 py-1 text-sm"> Next JS Application</p>
-                <p className="text-xs px-1">
+                <p className="mx-2 px-1 py-1 text-sm">InTime Photography</p>
+                <p className=" mx-2 py-1 text-sm"> Next JS Application</p>
+                <p className="text-xs mx-2 py-1">
                   InTime Photography is a simple single page Next Js
                   application. It uses the Image component that Next JS provides
                   as well the internal routing system. Allowing the images to
@@ -90,9 +62,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="mt-3 px-2 text-sm">RMVGDB</p>
-                <p className="ml-1 px-1 py-1 text-xs"> React JS Application</p>
-                <p className="text-xs px-2">
+                <p className="mx-2 py-1 text-sm">RMVGDB</p>
+                <p className="mx-2 py-1 text-xs"> React JS Application</p>
+                <p className="text-xs mx-2 py-1">
                   The Homepage Displays the latest, most popular, and new and
                   upcoming games. The website was created with React.js, Redux
                   for state management, axios, styled SASS components, and
@@ -113,37 +85,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${meet})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="ml-1 px-1 text-sm">Meet</p>
-                <p className="ml-1 px-1 text-xs"> React JS Application</p>
-                <p className="text-xs px-2 py-1">
-                  Meet is a serverless, progressive web application(PWA) built
-                  with React using a test-driven development(TDD) technique. The
-                  application uses the Google Calendar API to fetch upcoming
-                  events.
-                </p>
-              </span>
-              <div className="pt-1 text-center">
-                <a href="https://rmilligan006.github.io/meet/">
-                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/rmilligan006/meet">
-                  <button className="text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Grid Item */}
+
           <div
             style={{ backgroundImage: `url(${recipeapp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-100 ease-in duration-300"
@@ -151,9 +93,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-xl font-bold text-white tracking-wider">
-                <p className="px-1 py-1 text-xs">Watch This</p>
-                <p className="px-1 py-1 text-xs">React Application</p>
-                <p className="text-xs px-1 py-1">
+                <p className="mx-2 py-1 text-xs">Watch This</p>
+                <p className="mx-2 py-1 text-xs">React Application</p>
+                <p className="text-xs mx-2 py-1">
                   A Movie databse app built with React, and Material UI. This
                   application allows users to see the top trending movies and tv
                   shows. The hottest movies, and tv shows, and allows users to
@@ -181,9 +123,9 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 ease-in duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                <p className="px-1 py-1 text-xs mb-1">Diamond Steel Roofing</p>
-                <p className="px-1 py-1 text-xs"> React JS Application</p>
-                <p className="text-xs ml-1 mr-1 ">
+                <p className="mx-2 py-1 text-xs mb-1">Diamond Steel Roofing</p>
+                <p className="mx-2 py-1 text-xs"> React JS Application</p>
+                <p className="text-xs mx-2 py-1">
                   This website was built for "Diamond Steel Roofing Company",
                   out of Wingham Ont. The website was out dated and I was tasked
                   with making it modern. It uses ReactJs, Framer-motion,
